@@ -1,0 +1,109 @@
+header {
+    color: rgb(2, 9, 41);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: header;
+}
+
+.popular p {
+    color: rgb(2, 9, 41);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: p;
+}
+
+#grid-container {
+    display : grid;
+    grid-template-areas: 
+    'header header header'
+    'p p p'
+    'italy brazil america'
+    'nepal maldives indonesia';
+}
+
+
+
+
+#italy {
+    grid-area: italy;
+}
+
+#brazil {
+    grid-area: brazil;
+}
+
+#america {
+    grid-area: america;
+}
+
+#nepal {
+    grid-area: nepal;
+}
+
+#maldives {
+    grid-area: maldives;
+}
+
+#indonesia {
+    grid-area: indonesia;
+}
+
+#grid-container.popular > div {
+    padding: 25px;
+}
+
+#grid-container-places {
+    display : grid;
+    grid-template-areas: 
+    'places-header places-header places-header'
+    'p-tag-line p-tag-line p-tag-line'
+    'california korola_megna london'
+    'miami california2 iceland';
+}
+
+#places-header {
+    color: rgb(2, 9, 41);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: places-header;
+    padding-left: 25px;
+}
+
+#p-tag-line {
+    grid-area: p-tag-line;
+    color: rgb(2, 9, 41);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left : 25px;
+}
+
+#california {
+    grid-area: california;
+}
+
+#california2 {
+    grid-area: california2;
+}
+
+#iceland {
+    grid-area: iceland;
+}
+
+#korola_megna {
+    grid-area: korola_megna;
+}
+
+#london {
+    grid-area: london;
+}
+
+#miami {
+    grid-area: miami;
+}
+
+#grid-container-places.popular > div {
+    padding: 25px;
+}
+
+
+
